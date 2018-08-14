@@ -1,7 +1,7 @@
 from Knapsack_GeneticAlgorithm.GeneticKnapsack import GeneticKnapsack
 
-g = GeneticKnapsack()
+genericKnapsack = GeneticKnapsack()
 
-g.generate(100)
+genericKnapsack.generate_tournamentSelection(100)
 
-g.show()
+genericKnapsack.show()

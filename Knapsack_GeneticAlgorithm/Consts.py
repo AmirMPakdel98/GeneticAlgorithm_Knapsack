@@ -4,13 +4,15 @@ KNAPSACK_CAPACITY = 30
 
 POPULATION_SIZE = 100
 
-CROSSOVER_RATE = 1.00
+ELITISM = 5 # 0 - population_size/2
 
-MUTATION_RATE = 0.00
+CROSSOVER_RATE = 1.00 # 0.00 - 1.00
 
-SOLUTION_FIX_RATE = 500
+MUTATION_RATE = 0.20 # 0.00 - 0.50
 
-AVAILABLE_ITEMS = [
+SOLUTION_FIX_TIME = 2000 # higher is better but slower
+
+AVAILABLE_ITEMS = [ # 45 items
 
     Item(10,2),
     Item(10,3),
